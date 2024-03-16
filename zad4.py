@@ -30,6 +30,8 @@ def main():
     plt.ylabel('Цена')
     plt.show()
 
+
+
     new_X = [[75]]
     new_y = model.predict(new_X)
     print(f'За имот с 75 квадрата се очаква цената му да е {new_y[0]:.2f} лева')
